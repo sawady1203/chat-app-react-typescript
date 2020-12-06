@@ -1,3 +1,13 @@
+# chat-app by React-TypeScript
+
+``` BASH
+# start project
+npx create-react-app chat-app --template typescript
+# start local dev server
+cd chat-app
+yarn start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
