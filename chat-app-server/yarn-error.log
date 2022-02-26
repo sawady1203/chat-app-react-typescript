@@ -1,0 +1,43 @@
+Arguments: 
+  /home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/bin/node /home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/bin/yarn add socket.io typescript @types/node @types/socekt.io
+
+PATH: 
+  /home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/bin:/home/masayoshi/.anyenv/envs/nodenv/libexec:/home/masayoshi/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/home/masayoshi/.anyenv/envs/nodenv/plugins/nodenv-default-packages/bin:/home/masayoshi/.anyenv/envs/nodenv/plugins/node-build/bin:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/bin:/home/masayoshi/.anyenv/envs/pyenv/shims:/home/masayoshi/.anyenv/envs/pyenv/bin:/home/masayoshi/.anyenv/envs/nodenv/shims:/home/masayoshi/.anyenv/envs/nodenv/bin:/home/masayoshi/.anyenv/bin:/home/masayoshi/.tfenv/bin:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/bin:/home/masayoshi/.anyenv/envs/pyenv/shims:/home/masayoshi/.anyenv/envs/pyenv/bin:/home/masayoshi/.anyenv/envs/nodenv/shims:/home/masayoshi/.anyenv/envs/nodenv/bin:/home/masayoshi/.anyenv/bin:/home/masayoshi/.tfenv/bin:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/shims:/home/masayoshi/.anyenv/envs/rbenv/bin:/home/masayoshi/.anyenv/envs/pyenv/shims:/home/masayoshi/.anyenv/envs/pyenv/bin:/home/masayoshi/.anyenv/envs/nodenv/shims:/home/masayoshi/.anyenv/envs/nodenv/bin:/home/masayoshi/.anyenv/bin:/home/masayoshi/.tfenv/bin:/home/masayoshi/.anyenv/envs/pyenv/shims:/home/masayoshi/.anyenv/envs/pyenv/bin:/home/masayoshi/.cargo/bin:/home/masayoshi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fsocekt.io: Not found
+      at Request.params.callback [as _callback] (/home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/home/masayoshi/.anyenv/envs/nodenv/versions/16.7.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1348:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "chat-app-server",
+    "version": "1.0.0",
+    "description": "chat-app websocket server",
+    "main": "app.js",
+    "author": "masayoshi",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
